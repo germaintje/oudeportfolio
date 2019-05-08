@@ -1,0 +1,45 @@
+h3.alt {
+    color: black;
+}
+
+.werk {
+    background-color: #f1f1f1;
+    padding: 20px;
+    min-height: 450px;
+    width: 80%;
+    margin: 0 auto;
+    -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    color: #767d88;
+    text-align: center;
+}
+
+@media screen and (min-width: 1400px) {
+    .werkimg {
+        height: 100%;
+        width: auto;
+        max-width: 350px;
+        max-height: 170px;
+    }
+}
+
+.werkimg {
+    height: 100%;
+    width: 100%;
+    max-width: 350px;
+    max-height: 170px;
+}
+
+.werkbutton {
+    margin-top: -3pc;
+}
+
+.meerwerk {
+    text-align: center;
+}
+
+p.left {
+    text-align: left;
+}
+
