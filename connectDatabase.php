@@ -1,9 +1,9 @@
 <?php
 // require_once "DataHandler.php";
-$servername = "db.germaindejong.nl";
-$username = "md477759db465645";
-$password = "portfolio2019";
-$dbname = "md477759db465645";
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "portfolio";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);

@@ -1,0 +1,35 @@
+.buttonwerk {
+	border-radius: 5px;
+	background-color: #09549e;
+	color: white;
+	font-size: 17px;
+	padding: 10px 20px 10px 20px;
+  transition: all 0.5s;
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+}
+
+.buttonwerk span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonwerk span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonwerk:hover span {
+  padding-right: 25px;
+}
+
+.buttonwerk:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+//detail werk button
